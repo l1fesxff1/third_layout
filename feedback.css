@@ -1,0 +1,130 @@
+
+#popup{
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 3000;
+    overflow: hidden;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 284px;
+}
+.popup_content{
+    margin: 0 auto;
+    width: 466px;
+    height: 578px;
+}
+.forClose{
+    width: 27px;
+    height: 27px;
+    background-color: #777777;
+    margin-left: auto;
+    margin-right: -27px;
+    display: flex;
+    align-content: center;
+    font-size: 30px;
+    position: relative;
+    /*top: -27px;*/
+}
+.close{
+    width: 15px;
+    height: 15px;
+    padding: 6px 0 0 6px;
+}
+.popup:target{
+}
+.textarea{
+    /*width: 339px;*/
+    /*height: 140px;*/
+    margin: 6px 0 21px 0;
+    width: 341px;
+    height: 142px;
+    background-color: #ffffff;
+    border: 1px solid #c3c3c3;
+}
+
+textarea{
+    resize: none;
+}
+.form{
+    width: 466px;
+    height: 578px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#popup_name{
+    width: 341px;
+    height: 42px;
+    margin: 8px 0 19px 0;
+}
+#popup_mail{
+    width: 341px;
+    height: 42px;
+    margin:8px 0 21px 0;
+}
+#popup_tel{
+    width: 341px;
+    height: 42px;
+    margin: 5px 0 21px 0;
+}
+.popup_button{
+    width: 128px;
+    height: 42px;
+    margin: 21px 0 26px 0;
+    border: none;
+    background-color: #777777;
+}
+.popup_title{
+     font-family: 'PT Sans';
+     font-size: 24px;
+     line-height: 1.2;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #535353;
+     margin: 35px 0;
+
+ }
+.popup_comment{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #535353;
+}
+.submit{
+    font-family: 'PT Sans';
+    font-size: 17.8px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+input:focus:invalid:required{
+    border: 1px solid #ff8383;
+    box-shadow: inset 0px 0px 13px 0px rgba(228,106,106,0.74);
+}
+::placeholder{
+    color: transparent;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+.forChange:focus::placeholder{
+    color: #dc7f7f;
+    align-content: center;
+    align-items: center;
+}
+.close:hover{
+    cursor: pointer;
+}
+.popup_button{
+    cursor:pointer;
+}
