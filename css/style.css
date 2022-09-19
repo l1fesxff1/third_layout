@@ -431,11 +431,11 @@ a{
 }
 .slick-arrow.slick-prev{
     left: 0;
-    background: url("img/slide_left.png") 0 0 / 100% no-repeat;
+    background: url("../img/slide_left.png") 0 0 / 100% no-repeat;
 }
 .slick-arrow.slick-next{
     right: 0;
-    background: url("img/slide_right.png") 0 0 / 100% no-repeat;
+    background: url("../img/slide_right.png") 0 0 / 100% no-repeat;
 }
 .slider_item{
     min-width: 0;
